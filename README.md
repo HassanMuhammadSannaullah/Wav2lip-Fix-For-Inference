@@ -44,16 +44,20 @@ from wav2lip_processor import Processor
 
 2. Use run method to perform inference
 ```python
+processor = Processor()
 processor.run("path_to_face_video_or_image", "path_to_audio.wav", "output_path.mp4")
 ```
 
 Additional Options
 You can customize various options by providing arguments to the Processor class constructor or modifying the run method. Here are some important options:
 ```
-checkpoint_path: Path to the Wav2Lip model checkpoint.
-nosmooth: Disable smoothening of face boxes.
-static: Use a static image for face detection.
-resize_factor: Resize factor for video frames.
+# These can be set in the constructor
+checkpoint_path: Path to the Wav2Lip model checkpoint. 
+nosmooth: Disable smoothening of face boxes. 
+static: Use a static image for face detection. 
+
+# All below can be set in the run function of Processor class
+resize_factor: Resize factor for video frames. 
 rotate: Rotate frames (useful for portrait videos).
 crop: Crop the video frame [y1, y2, x1, x2].
 fps: Frames per second for the output video.
