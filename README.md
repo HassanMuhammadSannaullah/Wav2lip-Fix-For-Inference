@@ -39,7 +39,7 @@ You can either directly run the wav2lip.py file in the project or import Process
 
 1. Import Processor class
 ```python
-from wav2lip_processor import Processor
+from Wav2Lip import Processor
 ```
 
 2. Use run method to perform inference
