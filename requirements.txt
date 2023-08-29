@@ -1,0 +1,7 @@
+opencv-python==4.8.0.76
+torch==2.0.1
+numpy==1.23.5
+tqdm==4.66.1
+moviepy==1.0.3
+librosa==0.7.0
+numba==0.57.1
