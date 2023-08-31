@@ -13,6 +13,7 @@ Before using this repository, ensure you have the following prerequisites instal
 
 - Python 3.9 or later
 - Dependencies listed in `requirements.txt`
+- Download and place pretrained checkpoints in checkpoints folder. You can get the links to download in the original repository.
 
 ### Installing
 
